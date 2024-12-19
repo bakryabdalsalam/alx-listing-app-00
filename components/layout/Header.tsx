@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <Link href="/">
-          <span className="text-xl font-bold cursor-pointer">MyListingApp</span>
+          <span className="text-xl font-bold cursor-pointer">Affsquare</span>
         </Link>
       </div>
 
