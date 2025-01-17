@@ -1,4 +1,3 @@
-// interfaces/index.ts
 export interface PropertyProps {
   name: string;
   address: {
@@ -6,6 +5,7 @@ export interface PropertyProps {
     city: string;
     country: string;
   };
+  rating: number;
   category: string[];
   price: number;
   offers: {
@@ -15,5 +15,4 @@ export interface PropertyProps {
   };
   image: string;
   discount: string;
-  deliveryDate: string; // added deliveryDate field
 }
